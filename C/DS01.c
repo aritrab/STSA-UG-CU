@@ -85,7 +85,7 @@ main()
 /* WRITING THE OUTPUT IN A FILE */
 
 	FILE *fp;
-	fp=fopen("214_01_1.dat","w");
+	fp=fopen("DS01.dat","w");
 	fprintf(fp,"The given raw data is:\n\n");
 	for(i=0;i<n;i++)
 	{
